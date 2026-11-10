@@ -65,21 +65,33 @@ Metric order is TP/FP/FN/TN.
 - VAPT packages are grey-box because PHP ships as source; grading requires a
   reproducible request and evidence ID, not a marker value alone.
 
+## Pilot and calibration
+
+- An **agent-assisted blind dry pilot** was run: three VAPT targets and three SOC
+  cases, each reviewer confined to its participant package. See
+  `PILOT-2026-11-10.md`.
+- VAPT: all 3 proofs found per target; 3.5-10.5 minutes; PerpusDigital hardest,
+  EventPass easiest.
+- SOC: final rules 10/0/11/28 (SOC-1), 4/0/1/19 (SOC-2), 12/0/2/12 (SOC-3);
+  SOC-2 hardest.
+- Defects found by the pilot (build-id check, evidence loss on reset, Q9
+  discoverability, evidence oracle, missing staff UI, note leakage, wrong flow id)
+  were fixed and re-tested.
+
 ## Remaining work (honest)
 
-1. Blind pilot on representative student laptops for all five themes; measure
-   time-to-proof, confusion points, RAM, and disk.
-2. Cross-target difficulty calibration for VAPT and cross-case calibration for
-   SOC.
-3. SOC Sigma mapping note where Sigma semantics fit.
-4. DEV-2 cryptographic signing-key simulation (current trust root is a local
-   builder identity).
-5. DFIR decision on binary artifacts (EVTX/PCAP/image) versus the current
-   JSON/CSV exports; today the packages teach analysis without forensic tools.
-6. GRC re-check of the status of PP 71/2019 and the Lembaga PDP before release;
-   both are flagged in the packages.
-7. Remote/mentor-hosted fallback for devices that fail the local pilot.
-8. Blind review of student-facing cards and rubric scoring.
+1. **Human blind pilot** on representative student laptops for all five themes.
+   The agent dry pilot is not a substitute; it may overperform humans and VAPT is
+   grey-box.
+2. Remote/mentor-hosted fallback for devices that fail the local pilot.
+3. DFIR mentor decision on the optional PCAP/SQLite add-on. A verified prototype
+   and memo exist (`dfir-cases/docs/DFIR-ARTIFACT-DECISION.md`); EVTX has not
+   been prototyped.
+4. Lembaga PDP establishment still requires verification. PP 71/2019 is confirmed
+   in force; no establishment instrument was found in an official search.
+5. Blind review of student-facing cards and rubric scoring.
+6. Push to GitHub after the maintainer confirms identity/remote. All commits are
+   local.
 
 ## Verify locally
 
