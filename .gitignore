@@ -8,5 +8,10 @@ devsecops-labs/
 .env
 .env.*
 *.tmp
+instructor-private/
+holdout-private/
+secrets/
+*.pem
+*.key
 *.inspect.ndjson
 ~$*
