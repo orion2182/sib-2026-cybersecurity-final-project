@@ -1,0 +1,153 @@
+{
+    "host": "WS-AKD-014",
+    "user": "nadia.permata@cendekia-nusantara.test",
+    "collected_at": "2026-11-03T14:00:00+07:00",
+    "source": "Chrome History export (read-only copy)",
+    "timezone": "Asia/Jakarta (UTC+07:00)",
+    "note": "Riwayat hanya memuat kunjungan yang tercatat; tidak memuat isi formulir atau nilai yang diketik pengguna.",
+    "visits": [
+        {
+            "visit_id": "VIS-0001",
+            "ts": "2026-11-02T14:05:12+07:00",
+            "url": "https://mail.cendekia-nusantara.test/owa/",
+            "title": "Surel Kampus - Kotak Masuk",
+            "transition": "TYPED",
+            "referrer": "",
+            "duration_ms": 96400,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0002",
+            "ts": "2026-11-02T16:03:11+07:00",
+            "url": "https://latihan-keamanan.cendekia-nusantara.test/kampanye/sim-2026-11?p=nadia.permata%40cendekia-nusantara.test",
+            "title": "Latihan Keamanan - Kampus Cendekia",
+            "transition": "LINK",
+            "referrer": "https://mail.cendekia-nusantara.test/owa/",
+            "duration_ms": 41200,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0003",
+            "ts": "2026-11-02T16:03:55+07:00",
+            "url": "https://latihan-keamanan.cendekia-nusantara.test/kampanye/sim-2026-11/selesai",
+            "title": "Terima kasih - Latihan Keamanan",
+            "transition": "LINK",
+            "referrer": "https://latihan-keamanan.cendekia-nusantara.test/kampanye/sim-2026-11?p=nadia.permata%40cendekia-nusantara.test",
+            "duration_ms": 8100,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0004",
+            "ts": "2026-11-02T16:05:02+07:00",
+            "url": "https://mail.cendekia-nusantara.test/owa/",
+            "title": "Surel Kampus - Kotak Masuk",
+            "transition": "LINK",
+            "referrer": "https://latihan-keamanan.cendekia-nusantara.test/kampanye/sim-2026-11/selesai",
+            "duration_ms": 15200,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0005",
+            "ts": "2026-11-03T08:47:03+07:00",
+            "url": "https://intranet.cendekia-nusantara.test/akademik/jadwal",
+            "title": "Jadwal Akademik - Intranet",
+            "transition": "TYPED",
+            "referrer": "",
+            "duration_ms": 128900,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0006",
+            "ts": "2026-11-03T09:05:40+07:00",
+            "url": "https://mail.cendekia-nusantara.test/owa/",
+            "title": "Surel Kampus - Kotak Masuk",
+            "transition": "TYPED",
+            "referrer": "",
+            "duration_ms": 42800,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0007",
+            "ts": "2026-11-03T09:06:31+07:00",
+            "url": "https://sso.cendekia-nusantara-sso.test/verify?u=nadia.permata%40cendekia-nusantara.test&c=YCN",
+            "title": "Verifikasi Akun - SSO Kampus",
+            "transition": "LINK",
+            "referrer": "https://mail.cendekia-nusantara.test/owa/",
+            "duration_ms": 62400,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0008",
+            "ts": "2026-11-03T09:07:02+07:00",
+            "url": "https://sso.cendekia-nusantara-sso.test/verify/step2",
+            "title": "Verifikasi Akun - Langkah 2 dari 2",
+            "transition": "LINK",
+            "referrer": "https://sso.cendekia-nusantara-sso.test/verify?u=nadia.permata%40cendekia-nusantara.test&c=YCN",
+            "duration_ms": 141800,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0009",
+            "ts": "2026-11-03T09:11:18+07:00",
+            "url": "https://sso.cendekia-nusantara-sso.test/verify/success",
+            "title": "Verifikasi Berhasil",
+            "transition": "LINK",
+            "referrer": "https://sso.cendekia-nusantara-sso.test/verify/step2",
+            "duration_ms": 4600,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0010",
+            "ts": "2026-11-03T09:12:03+07:00",
+            "url": "https://sso.cendekia-nusantara.test/",
+            "title": "SSO Kampus Cendekia",
+            "transition": "LINK",
+            "referrer": "https://sso.cendekia-nusantara-sso.test/verify/success",
+            "duration_ms": 22000,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0011",
+            "ts": "2026-11-03T09:14:22+07:00",
+            "url": "https://mail.cendekia-nusantara.test/owa/",
+            "title": "Surel Kampus - Kotak Masuk",
+            "transition": "LINK",
+            "referrer": "https://sso.cendekia-nusantara.test/",
+            "duration_ms": 118400,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0012",
+            "ts": "2026-11-03T09:31:40+07:00",
+            "url": "https://intranet.cendekia-nusantara.test/akademik/berita",
+            "title": "Berita Akademik - Intranet",
+            "transition": "TYPED",
+            "referrer": "",
+            "duration_ms": 33200,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        },
+        {
+            "visit_id": "VIS-0013",
+            "ts": "2026-11-03T10:20:12+07:00",
+            "url": "https://mail.cendekia-nusantara.test/owa/",
+            "title": "Surel Kampus - Sesi berakhir",
+            "transition": "TYPED",
+            "referrer": "",
+            "duration_ms": 7200,
+            "browser": "Chrome 126.0.6478.127",
+            "profile": "Default"
+        }
+    ]
+}

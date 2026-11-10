@@ -1,0 +1,16 @@
+# snapshot_id=SNAP-20261106-0900; host=web-perpus-01; taken_at=2026-11-06T09:00:00+07:00; collector=host-agent 2.1; scope=/var/www/perpustakaan,/var/backups
+path,type,size_bytes,mtime,sha256_original,owner,mode,note
+/var/www/perpustakaan/,dir,"",2026-11-06T08:41:27+07:00,"",www-data,0755,akar aplikasi
+/var/www/perpustakaan/public/uploads/,dir,"",2026-11-06T08:20:09+07:00,"",www-data,0755,direktori unggahan
+/var/www/perpustakaan/public/uploads/cover-9786020000111.jpg,file,84211,2026-10-28T10:12:44+07:00,a3646aba06b7d16c334766172c6c64a0e0b0736b85fb94d0dbc5a540c45c5906,www-data,0644,sampul
+/var/www/perpustakaan/public/uploads/cover-9786020000222.jpg,file,91002,2026-10-30T14:31:02+07:00,7ec43d3201e8f18df54831cafaea488d97c5e0c99d326ae6288b4d334aa6b406,www-data,0644,sampul
+/var/www/perpustakaan/public/uploads/cover-2026-11-05.php,file,1188,2026-11-05T22:37:58+07:00,996f6b51b4103ce5735215d07e9e1cabc1d9e88aa82795a0990ffd8afeec581a,www-data,0644,ditemukan saat triage; tidak disertakan sebagai kode
+/var/www/perpustakaan/storage/exports/,dir,"",2026-11-06T02:00:03+07:00,"",www-data,0750,cache ekspor
+/var/www/perpustakaan/storage/exports/export-12479.csv,file,120422,2026-11-05T17:02:11+07:00,f60eac3bb285a10824050c52802b05e0ba15bbaddfc8b2af40c5a5dadeba67c6,www-data,0640,ekspor terjadwal
+/var/www/perpustakaan/storage/exports/.cache-9f1.php,file,2049,2026-11-05T22:41:07+07:00,42adc6f5df39ebaf68e56594773a36cbc68da92432462ded760480c24bb5d18e,www-data,0644,tersembunyi; tidak disertakan
+/var/www/perpustakaan/storage/logs/laravel-2026-11-05.log,file,991204,2026-11-05T23:59:59+07:00,62893ba427ac194a4292fd02b6865c08e5b28e99b1ac295f200ff7cec7e3de0d,www-data,0640,log aplikasi
+/var/www/perpustakaan/storage/logs/laravel-2026-11-06.log,file,212044,2026-11-06T08:41:27+07:00,76b556343ca6f842427260a514a9603c2492ef17354cd6c9dbacc7c56003a602,www-data,0640,log aplikasi
+/var/www/perpustakaan/config/app.php,file,3120,2026-10-28T09:00:00+07:00,8d79cef853587b79429543de7481df47a3a509b348cfa1275d0b58911f362bc0,root,0644,tidak berubah
+/var/www/perpustakaan/.env,file,1410,2026-10-28T09:00:00+07:00,65b4cd1fc7bfd8ce83e10c9bb8b50b7686bef136dfdf5e8560e4ef10b3044e51,root,0600,tidak berubah
+/var/backups/,dir,"",2026-11-05T23:07:18+07:00,"",root,0700,pencadangan
+/var/backups/perpus-2026-11-05.tar.gz,file,153092096,2026-11-05T23:07:18+07:00,b3da00bebd554ae146610049749370208ba5a78675ec79e4f4cc4098c831e1c9,root,0600,cron; tidak disertakan

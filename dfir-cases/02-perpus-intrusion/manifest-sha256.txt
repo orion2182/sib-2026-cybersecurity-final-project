@@ -1,0 +1,22 @@
+# manifest-sha256.txt - SHA-256 of every file in this package
+# format: <lowercase sha256><two spaces><relative/path>
+# verify from the package root: see evidence/README.md
+d7c5a6ce70c32036408fa3fd1928676e72856884f0a4b4df85ab58e7d31823a6  MANDATE.md
+387f53e8b66d16e3b364d7c9e09ecd7f7b7251bdeed676c352eaa110b43d8286  README-mahasiswa.md
+08481d73eba23ba90a04049c06c25d28311291677db87df7b0dda0e923a3f133  artifacts/ARTIFACT-INDEX.md
+8badd36df84c40c98c2b9736ce6fbebfae56525f6e374775ed3eab55fb6045bc  artifacts/SOURCE-TIME-AND-CONVENTIONS.md
+3e1421b6f1b9ec7310cf1ce26c6f045c12bf90185a3d0ed526c38491aa936a1b  artifacts/change/change-tickets-2026-11.csv
+035fb2c79672f9b52a65b4c6a9d947191a1efca4e06c070173b2eea7b612522c  artifacts/config/config-audit-web-perpus-01.csv
+3fea4eba60ec659711674f6e908dd5ec1d7c88187b8e402274520e52bc0d4c16  artifacts/fs/snapshot-web-perpus-01-20261105T1900+07.csv
+a419d4c4bfa25a7ff6af7b42c189152720147115a37d6a4339505ec3dcab473e  artifacts/fs/snapshot-web-perpus-01-20261106T0900+07.csv
+1c901ecc5c2569f0f549969535d1c2a1197dcb5977520b928f3ba866c0fc9c2c  artifacts/fs/uploads/cover-2026-11-05.php.txt
+2fc0c9bca261fa4c9f53b1b2db51ebb432fa242bdd254718e3b5a1c0eac71010  artifacts/net/firewall-sessions.csv
+bee0556e95e545fa0389dc21d8bd62155c0bb8b87cf1128c0e659f37bce35d1a  artifacts/web/access.log
+9da02e764e305f6270a5206a59a79591e5d7853e4842740d44bf2a9a6a2c672c  artifacts/web/app.log
+07b43bcb13ebb67e8b524ca467f9dd204e85451719c3e72d86b99971431dcf77  artifacts/web/error.log
+60b37c60bed28986a69de86e1072a38084b390e751de48c066571d934f69c6c7  baseline/README.md
+1037cd8dea9289e919908c2721241f5599fde52e320b5c355d965cb5255de872  baseline/access-summary-20261022_20261104.csv
+1fba7f68ed274b8f5b1a9babc4404860dbb13d2956405f27d491f381c5e1999b  baseline/app-request-mix-20261104.json
+50cec03ba99c8c17e8f7aadb2e91cf76ab559861acab8e13530f45e1a7389f50  evidence/README.md
+7c175d76849da735258e23fe9d5e3ee4dc0c01f1d2aadacb0842cb7d047373e1  evidence/evidence-register-template.csv
+d4e1e396ad522e9577b86d0542003b9097b2e563bc8ea27f3118583ea7bea4d6  student-card.md

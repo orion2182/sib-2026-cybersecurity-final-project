@@ -1,0 +1,84 @@
+{
+    "baseline_date": "2026-11-04",
+    "window_start": "2026-11-04T00:00:00+07:00",
+    "window_end": "2026-11-04T23:59:59+07:00",
+    "source": "agregasi access.log harian, log mentah tidak disertakan",
+    "routes": [
+        {
+            "route": "/",
+            "requests": 3120,
+            "p95_ms": 180
+        },
+        {
+            "route": "/catalog",
+            "requests": 4012,
+            "p95_ms": 240
+        },
+        {
+            "route": "/catalog/{isbn}",
+            "requests": 1840,
+            "p95_ms": 190
+        },
+        {
+            "route": "/assets/*",
+            "requests": 902,
+            "p95_ms": 20
+        },
+        {
+            "route": "/admin/*",
+            "requests": 140,
+            "p95_ms": 520
+        },
+        {
+            "route": "/api/v1/covers",
+            "requests": 62,
+            "p95_ms": 310
+        },
+        {
+            "route": "/api/v1/covers/upload",
+            "requests": 3,
+            "p95_ms": 480
+        },
+        {
+            "route": "/catalog/export",
+            "requests": 4,
+            "p95_ms": 900
+        }
+    ],
+    "export_profile": {
+        "typical_bytes_min": 112000,
+        "typical_bytes_max": 132000,
+        "typical_scope": "public",
+        "max_rows_observed": 400
+    },
+    "upload_profile": {
+        "typical_source": "sesi admin dari 10.20.9.20",
+        "typical_declared_mime": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "typical_size_bytes": [
+            40000,
+            120000
+        ],
+        "php_uploads_observed": 0
+    },
+    "user_agent_mix": [
+        {
+            "family": "Firefox",
+            "share": 0.46
+        },
+        {
+            "family": "Chrome",
+            "share": 0.38
+        },
+        {
+            "family": "Safari",
+            "share": 0.13
+        },
+        {
+            "family": "curl",
+            "share": 0.01
+        }
+    ]
+}

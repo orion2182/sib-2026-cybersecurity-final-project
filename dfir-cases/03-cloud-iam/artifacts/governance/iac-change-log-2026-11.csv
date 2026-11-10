@@ -1,0 +1,7 @@
+iac_id,ts_utc,ts_local,operation,target,parameter,change_ref,actor,result
+IAC-2026-1102-01,2026-11-02T07:09:28Z,2026-11-02T14:09:28+07:00,attach_role_policy,svc-reporting,NimbusObjectReadAll,CHG-2211,dewi.analis,apply sukses
+IAC-2026-1102-02,2026-11-02T07:09:31Z,2026-11-02T14:09:31+07:00,policy_effective,svc-reporting,NimbusObjectReadAll,CHG-2211,pipeline,efektif di penyedia
+IAC-2026-1104-01,2026-11-04T08:40:19Z,2026-11-04T15:40:19+07:00,detach_role_policy,svc-reporting,NimbusObjectReadAll,CHG-2214,dewi.analis,apply sukses
+IAC-2026-1104-02,2026-11-04T08:44:05Z,2026-11-04T15:44:05+07:00,deactivate_access_key,AKNIMBUS7Q2EXAMPLE,-,CHG-2214,dewi.analis,apply sukses
+IAC-2026-1105-01,2026-11-05T03:10:00Z,2026-11-05T10:10:00+07:00,set_bucket_policy,arsip-laporan-prod,deny-non-corporate-ip,CHG-2215,dewi.analis,menunggu review
+IAC-2026-1106-01,2026-11-06T01:00:00Z,2026-11-06T08:00:00+07:00,create_access_key,svc-reporting,NKEY-04,CHG-2216,dewi.analis,kunci baru untuk rotasi

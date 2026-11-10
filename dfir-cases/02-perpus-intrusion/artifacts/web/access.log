@@ -1,0 +1,39 @@
+# Software: Apache/2.4.58 (Ubuntu)  Server: perpustakaan.ucn.test  LogFormat: combined+rt+rid
+192.0.2.88 - - [05/Nov/2026:18:02:11 +0700] "GET / HTTP/1.1" 200 18422 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" rt=0.121 rid=REQ-20261105-0001
+192.0.2.88 - - [05/Nov/2026:18:14:39 +0700] "GET /catalog?q=manajemen HTTP/1.1" 200 24110 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" rt=0.208 rid=REQ-20261105-0002
+10.20.9.20 - - [05/Nov/2026:19:05:02 +0700] "GET /admin/dashboard HTTP/1.1" 200 31204 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36" rt=0.344 rid=REQ-20261105-0003
+192.0.2.141 - - [05/Nov/2026:20:12:31 +0700] "GET /catalog/9786020000111 HTTP/1.1" 200 12880 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36" rt=0.098 rid=REQ-20261105-0004
+192.0.2.141 - - [05/Nov/2026:20:31:07 +0700] "GET /assets/app.css HTTP/1.1" 200 40122 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36" rt=0.012 rid=REQ-20261105-0005
+198.51.100.55 - - [05/Nov/2026:20:58:14 +0700] "GET /admin/config.php HTTP/1.1" 404 512 "-" "NimbusScan/3.2 (authorized-assessment; contact=security@vendor-nusantara.test)" rt=0.031 rid=REQ-20261105-0006
+198.51.100.55 - - [05/Nov/2026:21:01:02 +0700] "GET /.env HTTP/1.1" 404 512 "-" "NimbusScan/3.2 (authorized-assessment; contact=security@vendor-nusantara.test)" rt=0.031 rid=REQ-20261105-0007
+198.51.100.55 - - [05/Nov/2026:21:04:47 +0700] "GET /backup.zip HTTP/1.1" 404 512 "-" "NimbusScan/3.2 (authorized-assessment; contact=security@vendor-nusantara.test)" rt=0.031 rid=REQ-20261105-0008
+198.51.100.55 - - [05/Nov/2026:21:07:19 +0700] "GET /phpinfo.php HTTP/1.1" 404 512 "-" "NimbusScan/3.2 (authorized-assessment; contact=security@vendor-nusantara.test)" rt=0.031 rid=REQ-20261105-0009
+198.51.100.55 - - [05/Nov/2026:21:09:55 +0700] "GET /uploads/../config/database.yml HTTP/1.1" 404 512 "-" "NimbusScan/3.2 (authorized-assessment; contact=security@vendor-nusantara.test)" rt=0.031 rid=REQ-20261105-0010
+198.51.100.55 - - [05/Nov/2026:21:12:36 +0700] "GET /api/v1/covers/upload HTTP/1.1" 405 221 "-" "NimbusScan/3.2 (authorized-assessment; contact=security@vendor-nusantara.test)" rt=0.031 rid=REQ-20261105-0011
+198.51.100.55 - - [05/Nov/2026:21:15:08 +0700] "GET /server-status HTTP/1.1" 404 512 "-" "NimbusScan/3.2 (authorized-assessment; contact=security@vendor-nusantara.test)" rt=0.031 rid=REQ-20261105-0012
+198.51.100.55 - - [05/Nov/2026:21:17:41 +0700] "GET /wp-login.php HTTP/1.1" 404 512 "-" "NimbusScan/3.2 (authorized-assessment; contact=security@vendor-nusantara.test)" rt=0.031 rid=REQ-20261105-0013
+198.51.100.55 - - [05/Nov/2026:21:18:50 +0700] "GET /catalog?q=%27%20OR%201%3D1-- HTTP/1.1" 200 18220 "-" "NimbusScan/3.2 (authorized-assessment; contact=security@vendor-nusantara.test)" rt=0.031 rid=REQ-20261105-0014
+198.51.100.55 - - [05/Nov/2026:21:19:41 +0700] "GET /api/v1/members/export HTTP/1.1" 403 198 "-" "NimbusScan/3.2 (authorized-assessment; contact=security@vendor-nusantara.test)" rt=0.031 rid=REQ-20261105-0015
+10.20.9.20 - - [05/Nov/2026:21:52:18 +0700] "GET /admin/covers HTTP/1.1" 200 48210 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36" rt=0.411 rid=REQ-20261105-0016
+192.0.2.77 - - [05/Nov/2026:21:58:03 +0700] "GET /catalog?q=statistika HTTP/1.1" 200 19920 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" rt=0.188 rid=REQ-20261105-0017
+203.0.113.146 - - [05/Nov/2026:22:31:12 +0700] "GET /catalog?q=test HTTP/1.1" 200 18740 "-" "curl/8.4.0" rt=0.152 rid=REQ-20261105-0018
+203.0.113.146 - - [05/Nov/2026:22:32:40 +0700] "GET /api/v1/covers?limit=500 HTTP/1.1" 200 96044 "-" "curl/8.4.0" rt=0.301 rid=REQ-20261105-0019
+203.0.113.146 - - [05/Nov/2026:22:34:20 +0700] "PUT /api/v1/covers/upload HTTP/1.1" 201 412 "-" "curl/8.4.0" rt=0.288 rid=REQ-20261105-0020
+203.0.113.146 - - [05/Nov/2026:22:35:02 +0700] "OPTIONS /api/v1/covers/upload HTTP/1.1" 200 184 "-" "curl/8.4.0" rt=0.004 rid=REQ-20261105-0021
+203.0.113.146 - - [05/Nov/2026:22:36:44 +0700] "GET /api/v1/covers/upload HTTP/1.1" 405 221 "-" "curl/8.4.0" rt=0.002 rid=REQ-20261105-0022
+203.0.113.146 - - [05/Nov/2026:22:37:58 +0700] "PUT /api/v1/covers/upload HTTP/1.1" 201 418 "-" "curl/8.4.0" rt=0.274 rid=REQ-20261105-0023
+203.0.113.146 - - [05/Nov/2026:22:38:12 +0700] "GET /uploads/cover-2026-11-05.php HTTP/1.1" 200 34 "-" "curl/8.4.0" rt=0.007 rid=REQ-20261105-0024
+203.0.113.146 - - [05/Nov/2026:22:39:41 +0700] "POST /uploads/cover-2026-11-05.php HTTP/1.1" 200 34 "-" "curl/8.4.0" rt=0.011 rid=REQ-20261105-0025
+203.0.113.146 - - [05/Nov/2026:22:40:55 +0700] "POST /uploads/cover-2026-11-05.php HTTP/1.1" 200 34 "-" "curl/8.4.0" rt=0.009 rid=REQ-20261105-0026
+203.0.113.146 - - [05/Nov/2026:22:44:02 +0700] "GET /catalog/export?format=csv&scope=all HTTP/1.1" 200 4312990 "-" "curl/8.4.0" rt=12.884 rid=REQ-20261105-0027
+203.0.113.146 - - [05/Nov/2026:22:46:10 +0700] "GET /api/v1/members/export HTTP/1.1" 403 198 "-" "curl/8.4.0" rt=0.014 rid=REQ-20261105-0028
+203.0.113.146 - - [05/Nov/2026:22:49:33 +0700] "GET /catalog/export?format=csv&scope=all&offset=5000 HTTP/1.1" 200 2140880 "-" "curl/8.4.0" rt=7.402 rid=REQ-20261105-0029
+203.0.113.146 - - [05/Nov/2026:22:53:21 +0700] "GET / HTTP/1.1" 200 18422 "-" "curl/8.4.0" rt=0.120 rid=REQ-20261105-0030
+127.0.0.1 - - [05/Nov/2026:23:05:04 +0700] "GET /healthz HTTP/1.1" 200 41 "-" "curl/7.81.0" rt=0.008 rid=REQ-20261105-0031
+192.0.2.201 - - [05/Nov/2026:23:41:19 +0700] "GET /catalog?q=fisika HTTP/1.1" 200 20110 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" rt=0.172 rid=REQ-20261105-0032
+10.20.9.20 - - [06/Nov/2026:07:58:52 +0700] "GET /admin/covers HTTP/1.1" 200 47990 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36" rt=0.402 rid=REQ-20261106-0001
+10.20.9.20 - - [06/Nov/2026:08:02:14 +0700] "GET /admin/covers?page=2 HTTP/1.1" 500 1120 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36" rt=0.884 rid=REQ-20261106-0002
+10.20.9.20 - - [06/Nov/2026:08:03:40 +0700] "GET /admin/logs HTTP/1.1" 200 61200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36" rt=0.512 rid=REQ-20261106-0003
+10.20.9.20 - - [06/Nov/2026:08:20:09 +0700] "GET /uploads/cover-2026-11-05.php HTTP/1.1" 200 34 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36" rt=0.006 rid=REQ-20261106-0004
+10.20.9.20 - - [06/Nov/2026:08:41:27 +0700] "POST /admin/maintenance HTTP/1.1" 200 880 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36" rt=0.233 rid=REQ-20261106-0005
+192.0.2.60 - - [06/Nov/2026:09:05:11 +0700] "GET /catalog HTTP/1.1" 200 18220 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" rt=0.131 rid=REQ-20261106-0006

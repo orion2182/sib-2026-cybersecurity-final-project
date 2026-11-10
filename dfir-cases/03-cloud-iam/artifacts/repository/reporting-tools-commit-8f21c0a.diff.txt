@@ -1,0 +1,27 @@
+commit 8f21c0a4d1e2b3f4907a1c2d3e4f5061728394a5
+Author: reporting-bot <reporting-bot@arsipbahari.test>
+Date:   Wed Oct 28 09:14:02 2026 +0700
+Subject: chore(config): add production environment template
+
+diff --git a/config/prod.env b/config/prod.env
+new file mode 100644
+index 0000000..3f9c2a1
+--- /dev/null
++++ b/config/prod.env
+@@ -0,0 +1,9 @@
++# Konfigurasi produksi - JANGAN DI-COMMIT
++NIMBUS_REGION=ap-southeast-9
++NIMBUS_ACCOUNT=400000000001
++NIMBUS_ACCESS_KEY_ID=AKNIMBUS7Q2EXAMPLE
++NIMBUS_SECRET_ACCESS_KEY=[REDACTED-IN-PACKAGE]
++NIMBUS_BUCKET=arsip-laporan-prod
++REPORT_PREFIX=laporan-bulanan/
++REPORT_CRON=0 1 * * *
++LOG_LEVEL=info
+
+Catatan paket:
+- Repositori `git.arsipbahari.test/reporting-tools` berstatus **publik** sejak
+  2026-10-28 dan diakses oleh 14 akun eksternal sebelum insiden.
+- Nilai `NIMBUS_SECRET_ACCESS_KEY` disanitasi saat pembuatan paket. Nilai
+  aslinya tidak disertakan dan tidak dapat dipulihkan dari paket ini.
+- Commit ini tidak dihapus sampai 2026-11-04 15:58 WIB.

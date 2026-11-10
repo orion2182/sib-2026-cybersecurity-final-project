@@ -1,0 +1,8 @@
+ticket_id,type,ts_created,requester,summary,status,resolution,ts_resolved,owner,note
+CHG-2199,change,2026-10-27T15:00:00+07:00,admin.perpus,Perubahan konfigurasi ekspor katalog dan debug,approved,Diterapkan 2026-10-28 09:00 WIB,2026-10-28T09:00:00+07:00,CAB-PTI,Menambah kolom ekspor untuk audit inventaris
+CHG-2207,change,2026-11-01T09:30:00+07:00,vendor-nusantara,Jendela pemeliharaan vendor: pemindaian terotorisasi dan penyesuaian unggahan,approved,Diterapkan 2026-11-05 20:00-22:00 WIB,2026-11-05T22:00:00+07:00,CAB-PTI,Pemindai: 198.51.100.55; kontak security@vendor-nusantara.test; penyesuaian allowlist ekstensi
+CHG-2210,change,2026-11-02T11:00:00+07:00,admin.perpus,Rotasi retensi pencadangan 14 hari,approved,Diterapkan 2026-11-03 23:00 WIB,2026-11-03T23:05:00+07:00,CAB-PTI,Cron perpus-backup tetap 23:05 WIB
+INC-2026-1106-003,incident,2026-11-06T08:03:12+07:00,admin.perpus,Sampul buku hilang dan halaman katalog error,open,Mitigasi sementara: unggahan read-only,2026-11-06T08:41:27+07:00,PTI,Ditemukan berkas tak dikenal di /uploads
+REQ-2026-1105-014,request,2026-11-05T14:20:00+07:00,pustakawan1@ucn.test,Permintaan ekspor katalog lengkap untuk audit,closed,Disetujui; dijalankan manual 2026-11-05 17:02 WIB,2026-11-05T17:02:11+07:00,PTI,"Ekspor sah 120 KB, bukan 4 MB"
+INC-2026-1105-002,incident,2026-11-05T21:22:00+07:00,vendor-nusantara,Pemindaian selesai; 2 temuan rendah,closed,Laporan vendor dikirim 2026-11-06,2026-11-06T09:00:00+07:00,CAB-PTI,"Temuan: banner PHP, cookie tanpa HttpOnly"
+INC-2026-1106-004,incident,2026-11-06T09:12:00+07:00,pti@ucn.test,Permintaan analisis forensik independen,open,Paket dibekukan 09:30 WIB,2026-11-06T09:30:00+07:00,PTI,Mandat UCN-IR-2026-1106-02

@@ -1,0 +1,90 @@
+{
+    "snapshot_ts": "2026-11-06T02:00:00Z",
+    "account": "400000000001",
+    "users": [
+        {
+            "user_name": "dewi.analis",
+            "user_id": "AIDA-0a41bb93",
+            "mfa": true,
+            "last_activity": "2026-11-06T01:30:12Z",
+            "groups": [
+                "cloud-admins"
+            ]
+        },
+        {
+            "user_name": "tim.reporting",
+            "user_id": "AIDA-6b12cd07",
+            "mfa": true,
+            "last_activity": "2026-11-05T04:12:00Z",
+            "groups": [
+                "reporting-dev"
+            ]
+        },
+        {
+            "user_name": "audit.mutu",
+            "user_id": "AIDA-77c0ee12",
+            "mfa": false,
+            "last_activity": "2026-09-18T03:00:00Z",
+            "groups": [
+                "readonly-audit"
+            ]
+        }
+    ],
+    "roles": [
+        {
+            "role_name": "svc-reporting",
+            "role_id": "AROL-7c31d0e2",
+            "purpose": "Laporan bulanan otomatis",
+            "trust": "instance-profile:vm-reporting-01",
+            "mfa_required": false,
+            "access_keys": [
+                {
+                    "key_id": "AKNIMBUS7Q2EXAMPLE",
+                    "key_internal_id": "NKEY-01",
+                    "created_at": "2026-06-02T00:40:00Z",
+                    "last_used_at": "2026-11-04T09:21:02Z",
+                    "status": "Inactive",
+                    "created_by": "dewi.analis"
+                }
+            ]
+        },
+        {
+            "role_name": "svc-backup",
+            "role_id": "AROL-2f90aa71",
+            "purpose": "Rotasi pencadangan",
+            "trust": "instance-profile:vm-backup-01",
+            "mfa_required": false,
+            "access_keys": [
+                {
+                    "key_id": "AKNIMBUSBU4EXAMPLE",
+                    "key_internal_id": "NKEY-02",
+                    "created_at": "2026-03-11T02:00:00Z",
+                    "last_used_at": "2026-11-06T02:00:04Z",
+                    "status": "Active",
+                    "created_by": "dewi.analis"
+                }
+            ]
+        },
+        {
+            "role_name": "svc-analytics",
+            "role_id": "AROL-5c02ff18",
+            "purpose": "Aset publik situs",
+            "trust": "instance-profile:vm-cdn-origin",
+            "mfa_required": false,
+            "access_keys": [
+                {
+                    "key_id": "AKNIMBUSA67EXAMPLE",
+                    "key_internal_id": "NKEY-03",
+                    "created_at": "2026-05-20T02:00:00Z",
+                    "last_used_at": "2026-11-06T00:12:44Z",
+                    "status": "Active",
+                    "created_by": "dewi.analis"
+                }
+            ]
+        }
+    ],
+    "notes": [
+        "Tidak ada secret access key dalam snapshot ini.",
+        "Identitas layanan tidak mendukung MFA pada penyedia ini."
+    ]
+}

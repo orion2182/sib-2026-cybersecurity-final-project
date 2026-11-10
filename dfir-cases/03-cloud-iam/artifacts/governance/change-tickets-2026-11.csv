@@ -1,0 +1,7 @@
+ticket_id,type,ts_created,requester,summary,status,resolution,ts_resolved,owner,note
+CHG-2211,change,2026-11-02T06:40:00+07:00,tim.reporting@arsipbahari.test,Lampirkan NimbusObjectReadAll ke svc-reporting untuk migrasi laporan 2027,approved,Disetujui; berlaku 14:09 WIB; review 7 hari,2026-11-02T14:09:31+07:00,dewi.analis,Alasan: migrasi arsip laporan 2027; bersifat sementara
+CHG-2209,change,2026-11-01T10:00:00+07:00,dewi.analis,Aktifkan kebijakan retensi 30 hari arsip-backup-prod,approved,Berlaku 2026-11-01 12:00 WIB,2026-11-01T12:00:00+07:00,dewi.analis,Rotasi otomatis 03:00Z setiap hari
+CHG-2214,change,2026-11-04T15:05:00+07:00,tata.kelola@arsipbahari.test,Containment: cabut kebijakan dan nonaktifkan kunci svc-reporting,approved,Darurat; berlaku 15:40 WIB,2026-11-04T15:44:05+07:00,dewi.analis,Termasuk pencabutan kebijakan pada 15:40 WIB
+CHG-2215,change,2026-11-05T09:30:00+07:00,dewi.analis,Batasi bucket arsip-laporan-prod ke rentang IP korporat,pending,Menunggu review keamanan,"",dewi.analis,Belum diterapkan; perlu uji dampak ke job pelaporan
+CHG-2216,change,2026-11-06T07:40:00+07:00,dewi.analis,Rotasi kunci svc-reporting (kunci baru NKEY-04),approved,Kunci baru dibuat 08:00 WIB,2026-11-06T08:00:00+07:00,dewi.analis,Kunci lama sudah Inactive
+INC-2026-1104-002,incident,2026-11-04T14:20:00+07:00,sistem-monitor@arsipbahari.test,Lonjakan GetObject dari IP luar pada bucket arsip-laporan-prod,open,Eskalasi ke DFIR; paket dibekukan 16:00 WIB,"",tata.kelola,Ambang: 20 GetObject/jam dari luar 192.0.2.0/24

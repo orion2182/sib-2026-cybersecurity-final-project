@@ -1,0 +1,61 @@
+Return-Path: <it-support@cendekia-nusantara-sso.test>
+Received: from mx1.cendekia-nusantara-sso.test (mx1.cendekia-nusantara-sso.test [198.51.100.77])
+ by gw-in-02.mailgate.ycn.internal with ESMTPS id 4fJ2kL91xZ
+ for <nadia.permata@cendekia-nusantara.test>; Tue, 3 Nov 2026 08:12:44 +0700
+Received: from app03.cendekia-nusantara-sso.test (app03.cendekia-nusantara-sso.test [198.51.100.77])
+ by mx1.cendekia-nusantara-sso.test with ESMTP id 2cQ7pR40aa
+ for <nadia.permata@cendekia-nusantara.test>; Tue, 3 Nov 2026 01:12:41 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cendekia-nusantara-sso.test;
+ s=mail2026; t=1793668361; bh=SYNTHETICBhEXAMPLE0000000000000000000000000000=;
+ h=From:To:Subject:Date:Message-ID; b=SYNTHETICsignatureNOTREAL0000000000000000
+X-Gateway-Message-ID: MSG-20261103-0042
+X-Gateway-Verdict: delivered
+Authentication-Results: gw-in-02.mailgate.ycn.internal;
+ spf=pass smtp.mailfrom=it-support@cendekia-nusantara-sso.test;
+ dkim=pass header.d=cendekia-nusantara-sso.test;
+ dmarc=none header.from=cendekia-nusantara-sso.test
+From: "Layanan TI Kampus" <it-support@cendekia-nusantara-sso.test>
+To: nadia.permata@cendekia-nusantara.test
+Reply-To: helpdesk@cendekia-nusantara-sso.test
+Subject: [Tindakan Diperlukan] Verifikasi ulang akses SSO Anda sebelum 3 Nov 2026 12:00
+Date: Tue, 3 Nov 2026 08:12:39 +0700
+Message-ID: <RFC-20261103-011244.4a1f@cendekia-nusantara-sso.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1_9f2c4e7a"
+X-Mailer: PHP/8.1.2
+X-Priority: 1
+
+--b1_9f2c4e7a
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Yth. Bapak/Ibu,
+
+Sehubungan dengan pemeliharaan SSO kampus pada 3 November 2026, seluruh
+staf diminta melakukan verifikasi ulang akun. Akun yang belum diverifikasi
+sebelum pukul 12.00 WIB akan dinonaktifkan sementara.
+
+Verifikasi sekarang:
+https://sso.cendekia-nusantara-sso.test/verify?u=nadia.permata%40cendekia-nusantara.test&c=YCN
+
+Jika Anda tidak merasa meminta verifikasi, abaikan pesan ini.
+
+Hormat kami,
+Layanan TI Kampus
+--b1_9f2c4e7a
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"font-family:Arial,sans-serif">
+<p>Yth. Bapak/Ibu,</p>
+<p>Sehubungan dengan pemeliharaan SSO kampus pada 3 November 2026, seluruh
+staf diminta melakukan verifikasi ulang akun. Akun yang belum diverifikasi
+sebelum pukul 12.00 WIB akan dinonaktifkan sementara.</p>
+<p><a href=3D"https://sso.cendekia-nusantara-sso.test/verify?u=3Dnadia.permata%40cendekia-nusantara.test&amp;c=3DYCN"
+ style=3D"background:#0b5;color:#fff;padding:10px 18px;text-decoration:none">
+Verifikasi Sekarang</a></p>
+<p style=3D"color:#777;font-size:11px">Layanan TI Kampus - pesan otomatis,
+jangan dibalas.</p>
+</body></html>
+--b1_9f2c4e7a--

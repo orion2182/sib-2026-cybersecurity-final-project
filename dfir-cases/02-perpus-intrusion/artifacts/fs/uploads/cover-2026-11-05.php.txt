@@ -1,0 +1,18 @@
+SYNTHETIC EVIDENCE EXCERPT - NOT EXECUTABLE CODE
+================================================
+
+Berkas asli di host : /var/www/perpustakaan/public/uploads/cover-2026-11-05.php
+Ukuran asli          : 1188 byte
+mtime asli (WIB)     : 2026-11-05T22:37:58+07:00
+sha256 asli          : lihat kolom sha256_original pada snapshot 2026-11-06
+Peran di paket       : ekscerpt teks, bukan byte asli
+
+Catatan sanitasi:
+Isi asli tidak disertakan dalam paket ini. Yang tersedia hanya metadata dan
+potongan perilaku yang tercatat di access.log, app.log, dan error.log.
+Jangan mengeksekusi berkas ini dalam bentuk apa pun.
+
+Petunjuk analisis yang tersedia dari log (bukan dari isi berkas):
+- Server menyimpan berkas dengan nama yang ditentukan pengunggah.
+- Validasi tipe hanya memakai header Content-Type dari klien.
+- Berkas .php dapat diakses langsung melalui /uploads/.

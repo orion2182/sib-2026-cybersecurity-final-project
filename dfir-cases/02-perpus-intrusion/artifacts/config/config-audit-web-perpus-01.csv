@@ -1,0 +1,13 @@
+audit_id,effective_ts,scope,key,value_before,value_after,change_ref,changed_by,note
+CFG-001,2026-10-28T09:00:00+07:00,app,app.debug,false,true,CHG-2199,admin.perpus,Debug diaktifkan saat troubleshooting; tidak dikembalikan
+CFG-002,2026-10-28T09:00:00+07:00,app,app.env,production,production,CHG-2199,admin.perpus,Tidak berubah
+CFG-003,2026-10-28T09:00:00+07:00,php,expose_php,On,On,CHG-2199,admin.perpus,Nilai default image
+CFG-004,2026-10-28T09:00:00+07:00,upload,upload.max_size_mb,5,5,CHG-2199,admin.perpus,Tidak berubah
+CFG-005,2026-10-28T09:00:00+07:00,upload,upload.allowed_extensions,"jpg,jpeg,png","jpg,jpeg,png,pdf",CHG-2207,vendor-nusantara,Perluasan untuk e-book sampul PDF
+CFG-006,2026-10-28T09:00:00+07:00,upload,upload.validate_mime,client_header,client_header,CHG-2199,admin.perpus,Tidak berubah; validasi hanya header klien
+CFG-007,2026-10-28T09:00:00+07:00,upload,upload.require_auth,false,false,CHG-2199,admin.perpus,Endpoint unggah publik untuk integrasi kiosk
+CFG-008,2026-10-28T09:00:00+07:00,catalog,catalog.export_public,true,true,CHG-2199,admin.perpus,Ekspor katalog publik untuk integrasi OPAC
+CFG-009,2026-10-28T09:00:00+07:00,catalog,catalog.export_fields,"isbn,title,author","isbn,title,author,call_number,internal_note,acquisition_price",CHG-2199,admin.perpus,Ditambah untuk kebutuhan audit internal
+CFG-010,2026-10-28T09:00:00+07:00,upload,upload.cache_gc_hours,2,2,CHG-2199,admin.perpus,Retensi staging unggahan (jam)
+CFG-011,2026-11-05T20:00:00+07:00,maintenance,maintenance.window,none,vendor-2026-11,CHG-2207,vendor-nusantara,Jendela asesmen vendor 20:00-22:00
+CFG-012,2026-11-06T08:41:27+07:00,maintenance,uploads.readonly,false,true,INC-2026-1106-003,admin.perpus,Mitigasi sementara saat triage

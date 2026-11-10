@@ -1,0 +1,13 @@
+# snapshot_id=SNAP-20261105-1900; host=web-perpus-01; taken_at=2026-11-05T19:00:00+07:00; collector=host-agent 2.1; scope=/var/www/perpustakaan,/var/backups
+path,type,size_bytes,mtime,sha256_original,owner,mode,note
+/var/www/perpustakaan/,dir,"",2026-11-05T19:00:00+07:00,"",www-data,0755,akar aplikasi
+/var/www/perpustakaan/public/uploads/,dir,"",2026-11-05T18:55:12+07:00,"",www-data,0755,direktori unggahan
+/var/www/perpustakaan/public/uploads/cover-9786020000111.jpg,file,84211,2026-10-28T10:12:44+07:00,a3646aba06b7d16c334766172c6c64a0e0b0736b85fb94d0dbc5a540c45c5906,www-data,0644,sampul
+/var/www/perpustakaan/public/uploads/cover-9786020000222.jpg,file,91002,2026-10-30T14:31:02+07:00,7ec43d3201e8f18df54831cafaea488d97c5e0c99d326ae6288b4d334aa6b406,www-data,0644,sampul
+/var/www/perpustakaan/storage/exports/,dir,"",2026-11-05T17:02:11+07:00,"",www-data,0750,cache ekspor
+/var/www/perpustakaan/storage/exports/export-12479.csv,file,120422,2026-11-05T17:02:11+07:00,f60eac3bb285a10824050c52802b05e0ba15bbaddfc8b2af40c5a5dadeba67c6,www-data,0640,ekspor terjadwal
+/var/www/perpustakaan/storage/logs/laravel-2026-11-05.log,file,884120,2026-11-05T18:59:59+07:00,4822ca7976015bfa766d57eb569997871c5118addd717cfe1a2fbe47f0e6821a,www-data,0640,log aplikasi
+/var/www/perpustakaan/config/app.php,file,3120,2026-10-28T09:00:00+07:00,8d79cef853587b79429543de7481df47a3a509b348cfa1275d0b58911f362bc0,root,0644,konfigurasi
+/var/www/perpustakaan/.env,file,1410,2026-10-28T09:00:00+07:00,65b4cd1fc7bfd8ce83e10c9bb8b50b7686bef136dfdf5e8560e4ef10b3044e51,root,0600,rahasia aplikasi
+/var/backups/,dir,"",2026-11-04T23:07:20+07:00,"",root,0700,pencadangan
+/var/backups/perpus-2026-11-04.tar.gz,file,149880832,2026-11-04T23:07:20+07:00,31648f783552c2f3fd4ca258795c38968c43477bbc2beafd8735d07f7375ce59,root,0600,cron

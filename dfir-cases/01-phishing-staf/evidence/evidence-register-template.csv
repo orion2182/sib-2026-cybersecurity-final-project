@@ -1,0 +1,2 @@
+item_id,file_path,sha256_original,acquired_at,received_from,custodian,storage_location,sha256_working_copy,verification_result,notes
+E-001,artifacts/email/MSG-20261103-0042.eml,"",2026-11-20T09:00:00+07:00,Mentor DFIR (fiktif),"","","",isi setelah verifikasi

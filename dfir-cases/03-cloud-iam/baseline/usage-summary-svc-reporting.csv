@@ -1,0 +1,23 @@
+window_start,window_end,get_object_calls,list_calls,put_calls,delete_calls,distinct_source_ips,max_calls_per_hour,note
+2026-10-01T00:00:00Z,2026-10-01T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-02T00:00:00Z,2026-10-02T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-05T00:00:00Z,2026-10-05T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-06T00:00:00Z,2026-10-06T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-07T00:00:00Z,2026-10-07T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-08T00:00:00Z,2026-10-08T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-09T00:00:00Z,2026-10-09T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-12T00:00:00Z,2026-10-12T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-13T00:00:00Z,2026-10-13T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-14T00:00:00Z,2026-10-14T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-15T00:00:00Z,2026-10-15T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-16T00:00:00Z,2026-10-16T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-19T00:00:00Z,2026-10-19T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-20T00:00:00Z,2026-10-20T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-21T00:00:00Z,2026-10-21T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-22T00:00:00Z,2026-10-22T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-23T00:00:00Z,2026-10-23T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-26T00:00:00Z,2026-10-26T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-27T00:00:00Z,2026-10-27T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-28T00:00:00Z,2026-10-28T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-29T00:00:00Z,2026-10-29T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan
+2026-10-30T00:00:00Z,2026-10-30T23:59:59Z,8,1,0,0,1,8,cron laporan bulanan

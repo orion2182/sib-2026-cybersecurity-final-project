@@ -1,0 +1,39 @@
+{
+    "policy_name": "NimbusReportingRead",
+    "policy_arn": "nim:iam::400000000001:policy/NimbusReportingRead",
+    "version": "v3",
+    "effective_from": "2026-06-02T01:00:00Z",
+    "attached_to": [
+        "nim:iam::400000000001:role/svc-reporting"
+    ],
+    "statement": [
+        {
+            "sid": "ReadMonthlyReports",
+            "effect": "Allow",
+            "action": [
+                "s3:GetObject"
+            ],
+            "resource": [
+                "arn:nim:s3:::arsip-laporan-prod/laporan-bulanan/*"
+            ]
+        },
+        {
+            "sid": "ListMonthlyPrefix",
+            "effect": "Allow",
+            "action": [
+                "s3:ListBucket"
+            ],
+            "resource": [
+                "arn:nim:s3:::arsip-laporan-prod"
+            ],
+            "condition": {
+                "StringLike": {
+                    "s3:prefix": [
+                        "laporan-bulanan/*"
+                    ]
+                }
+            }
+        }
+    ],
+    "note": "Snapshot diambil dari konfigurasi yang berlaku 2026-10-31."
+}

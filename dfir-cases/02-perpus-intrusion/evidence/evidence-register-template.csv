@@ -1,0 +1,3 @@
+item_id,file_path,sha256_original,acquired_at,received_from,custodian,storage_location,sha256_working_copy,verification_result,notes
+E-001,artifacts/web/access.log,"",2026-11-20T09:00:00+07:00,Mentor DFIR (fiktif),"","","",isi setelah verifikasi
+E-002,artifacts/fs/uploads/cover-2026-11-05.php (asli di host),lihat snapshot FS,2026-11-20T09:00:00+07:00,Mentor DFIR (fiktif),"","",not_in_package,ekscerpt teks saja; hash asli tidak dapat dihitung ulang

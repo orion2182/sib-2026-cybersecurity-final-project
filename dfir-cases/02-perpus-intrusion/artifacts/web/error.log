@@ -1,0 +1,12 @@
+[05-Nov-2026 22:38:12 +0700] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/perpustakaan/app/Http/Middleware/ClientIp.php on line 41
+[05-Nov-2026 22:38:12 +0700] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/perpustakaan/public/uploads/cover-2026-11-05.php:1) in /var/www/perpustakaan/public/uploads/cover-2026-11-05.php on line 2
+[05-Nov-2026 22:39:41 +0700] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/perpustakaan/public/uploads/cover-2026-11-05.php:1) in /var/www/perpustakaan/public/uploads/cover-2026-11-05.php on line 2
+[05-Nov-2026 22:40:55 +0700] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/perpustakaan/public/uploads/cover-2026-11-05.php:1) in /var/www/perpustakaan/public/uploads/cover-2026-11-05.php on line 2
+[05-Nov-2026 22:44:09 +0700] PHP Warning:  fopen(/var/www/perpustakaan/storage/exports/export-12480.csv): Failed to open stream: Permission denied in /var/www/perpustakaan/app/Exports/CatalogExport.php on line 88
+[05-Nov-2026 22:49:36 +0700] PHP Deprecated:  Optional parameter $flags declared before required parameter $context is implicitly treated as a required parameter in /var/www/perpustakaan/vendor/league/csv/src/Writer.php on line 112
+[06-Nov-2026 01:12:44 +0700] PHP Fatal error:  Uncaught Error: Call to undefined function ucn_exec() in /var/www/perpustakaan/public/uploads/cover-2026-11-05.php:3
+[06-Nov-2026 01:12:44 +0700] Stack trace:
+#0 {main}
+  thrown in /var/www/perpustakaan/public/uploads/cover-2026-11-05.php on line 3
+[06-Nov-2026 08:02:14 +0700] PHP Warning:  Undefined array key "cover_path" in /var/www/perpustakaan/resources/views/admin/covers.blade.php on line 57
+[06-Nov-2026 08:02:14 +0700] PHP Warning:  Trying to access array offset on value of type null in /var/www/perpustakaan/resources/views/admin/covers.blade.php on line 57

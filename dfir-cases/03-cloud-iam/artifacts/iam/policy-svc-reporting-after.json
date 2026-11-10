@@ -1,0 +1,43 @@
+{
+    "snapshot_ts": "2026-11-06T02:00:00Z",
+    "role": "nim:iam::400000000001:role/svc-reporting",
+    "attached_policies": [
+        {
+            "policy_name": "NimbusReportingRead",
+            "policy_arn": "nim:iam::400000000001:policy/NimbusReportingRead",
+            "attached_at": "2026-06-02T01:00:00Z",
+            "attached_by": "system-bootstrap"
+        },
+        {
+            "policy_name": "NimbusObjectReadAll",
+            "policy_arn": "nim:iam::400000000001:policy/NimbusObjectReadAll",
+            "attached_at": "2026-11-02T07:09:31Z",
+            "attached_by": "dewi.analis",
+            "ticket": "CHG-2211",
+            "detached_at": "2026-11-04T08:40:19Z",
+            "statement": [
+                {
+                    "sid": "ReadAllReports",
+                    "effect": "Allow",
+                    "action": [
+                        "s3:GetObject"
+                    ],
+                    "resource": [
+                        "arn:nim:s3:::arsip-laporan-prod/*"
+                    ]
+                },
+                {
+                    "sid": "ListAllReports",
+                    "effect": "Allow",
+                    "action": [
+                        "s3:ListBucket"
+                    ],
+                    "resource": [
+                        "arn:nim:s3:::arsip-laporan-prod"
+                    ]
+                }
+            ]
+        }
+    ],
+    "note": "Kebijakan kedua berlaku 2026-11-02 07:09:31Z sampai 2026-11-04 08:40:19Z."
+}
