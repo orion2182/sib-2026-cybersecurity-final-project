@@ -1,0 +1,12 @@
+# Lab builder workspaces are independent GitHub repositories.
+vapt-labs/
+soc-labs/
+devsecops-labs/
+
+# Local editor and runtime state.
+.DS_Store
+.env
+.env.*
+*.tmp
+*.inspect.ndjson
+~$*
