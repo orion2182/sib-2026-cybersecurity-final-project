@@ -104,8 +104,8 @@ Metric order is TP/FP/FN/TN.
 4. Lembaga PDP establishment still requires verification. PP 71/2019 is confirmed
    in force; no establishment instrument was found in an official search.
 5. Blind review of student-facing cards and rubric scoring.
-6. Push to GitHub after the maintainer confirms identity/remote. All commits are
-   local.
+6. Confirm that each public GitHub repository matches its local checkout before
+   relying on a fresh clone.
 
 ## Verify locally
 
@@ -135,4 +135,5 @@ Get-Content manifest-sha256.txt
 ## Commit state
 
 Lab repositories have local milestone commits per theme. This planning repository
-has the DFIR and GRC packages. Nothing was pushed; no force push was used.
+has the DFIR and GRC packages. Check `git status -sb` in all four repositories
+for current GitHub sync state; no force push is needed.

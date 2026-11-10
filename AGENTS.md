@@ -4,7 +4,7 @@
 
 - Program menampung 65 mahasiswa dalam 13 kelompok berisi lima orang. Alokasi: VAPT 3, DFIR 3, SOC 3, GRC/privasi/BCP 2, DevSecOps/supply chain 2.
 - Kalender pengerjaan tetap 20 November–18 Desember 2026, gladi 16–18 Desember, dan presentasi/pengujian 21–23 Desember. Gunakan rincian harian pada snapshot XLSX atau Google Sheet mentor.
-- Per 10 November 2026, dokumen riset, spesifikasi, dan integrasi Spec Kit tersedia. Aplikasi VAPT, dataset SOC, paket bukti DFIR, paket tabletop GRC, dan repositori kasus DevSecOps belum selesai dibangun atau diuji. Jangan menyebut suatu lab siap dibagikan sebelum pilot dan pemeriksaan rilis.
+- Per 10 November 2026, 13 kasus sudah diimplementasikan dan lolos pemeriksaan otomatis sesuai `BUILD-STATUS.md`; VAPT dan SOC sudah menjalani dry pilot berbantuan agen. Pilot buta manusia, uji laptop perwakilan, dan pemeriksaan rilis tetap diperlukan sebelum distribusi.
 - Pengajar menyediakan semua aset dan target. Mahasiswa harus dapat menjawab pertanyaan bertahap dengan bukti; tiap kelompok dalam tema yang sama mendapat kasus/target berbeda untuk mengurangi penyalinan.
 
 ## Peta sumber yang harus dibaca
@@ -20,11 +20,11 @@
 
 - Repository induk adalah sumber perencanaan. Tiga direktori lab diabaikan oleh Git induk karena masing-masing punya remote sendiri. Jalankan Git dan OpenCode dari repository lab yang benar saat mengimplementasikan kasus tersebut.
 - OpenCode membaca `AGENTS.md` pada root repository tempat ia dijalankan. Jalankan `opencode` dari dalam `vapt-labs/`, `soc-labs/`, atau `devsecops-labs/` untuk pekerjaan lab; jangan menjalankan Spec Kit dari direktori induk.
-- Ketiga repository lab berisi `.opencode/commands/` dan integrasi Spec Kit 1.2.3. Pilih fitur aktif memakai `scripts/select_feature.py` sebelum perintah `/speckit.plan` dan tahapan berikutnya. Spesifikasi yang ada berstatus *ready for planning*, belum implementasi.
+- Ketiga repository lab berisi `.opencode/commands/` dan integrasi Spec Kit 1.2.3. Pada Windows, pilih fitur memakai `scripts/select-feature.ps1`; `scripts/select_feature.py` adalah alternatif pada mesin dengan Python. Jalankan perintah Spec Kit hanya untuk perubahan fitur. Implementasi lab saat ini sudah ada; lihat `docs/BUILD-STATUS.md` tiap repo.
 - Simpan kunci jawaban, label holdout, golden artifact, seed rahasia, kredensial, dan data pribadi nyata di luar repository publik. Jangan commit file itu. `docs/reference/` adalah bahan pembangunan dan dapat mengandung petunjuk solusi, sehingga bukan paket untuk mahasiswa.
 - Gunakan data sintetis, lingkungan lokal/terisolasi, dan uji hanya pada instance lab yang diotorisasi. Ukur resource pada laptop 8 GB sebelum mengklaim kelayakan.
 - Setiap perubahan implementasi harus punya bukti fungsi normal, kondisi sengaja gagal/terdeteksi, hasil setelah perbaikan, dan cara reset atau reproduksi sesuai tema. Kalibrasi kesetaraan kasus melalui pilot buta.
 
 ## Prioritas implementasi
 
-Bangun satu fitur per iterasi. Mulai dari harness/runner bersama di masing-masing repository lab, lalu kasus yang tertera menurut nomor spesifikasinya. Untuk DFIR dan GRC, siapkan paket kasus, kunci instruktur terpisah, dan pilot menggunakan dokumen riset sebagai kontrak. Pertahankan kalender dan pertanyaan mahasiswa yang telah disepakati.
+Prioritaskan pilot buta manusia pada laptop perwakilan, kalibrasi kesulitan antarkasus, pemeriksaan paket peserta, dan rencana fallback mentor. Jika mengubah implementasi, kerjakan satu fitur per iterasi dan pertahankan kalender serta pertanyaan mahasiswa yang telah disepakati.

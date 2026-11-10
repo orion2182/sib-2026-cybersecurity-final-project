@@ -3,6 +3,10 @@ vapt-labs/
 soc-labs/
 devsecops-labs/
 
+# Flash transfer metadata includes instructor-only file paths; keep local.
+README-TRANSFER.md
+TRANSFER-MANIFEST-SHA256.txt
+
 # Local editor and runtime state.
 .DS_Store
 .env
