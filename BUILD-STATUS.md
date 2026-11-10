@@ -38,11 +38,25 @@ gitignored machine-local state.
 | --- | --- | --- |
 | VAPT | KampusMart, PerpusDigital, EventPass; vulnerable + patched | 29/29, 24-25/25, 25/25 checks; packages verify with zero hash mismatches |
 | DFIR | 3 static evidence packages + separate mentor keys | manifests 0 mismatches; 51/51 integrity checks; 36/36 Q1-Q12 coverage |
-| SOC | 3 datasets + replay/query/evaluate/freeze/package harness | SOC-1 8/0/13/28 and 7/0/9/11; SOC-2 3/0/2/19 both; SOC-3 12/0/2/12 both |
+| SOC | 3 datasets + replay/query/evaluate/freeze/package harness | SOC-1 8/0/13/34 and 7/0/9/16; SOC-2 3/0/2/20 both; SOC-3 12/0/2/12 both |
 | GRC/BCP | 2 tabletops with staged injects, templates, mentor ranges | manifests 0 mismatches; both answer keys parse; legal articles checked on official JDIH pages |
-| DevSecOps | CampusAPI release gate; BuildGate provenance | DEV-1 13/13 verifications; DEV-2 12/12 verifications |
+| DevSecOps | CampusAPI release gate; BuildGate provenance with RSA signatures | DEV-1 13/13 verifications; DEV-2 20/20 verifications |
 
 Metric order is TP/FP/FN/TN.
+
+## Hardening completed after the pilot
+
+- SOC event notes neutralized; victim baselines added; sequence/label and flow-id
+  inconsistencies fixed; rule format and engine limits documented.
+- Sigma mapping note added: `soc-labs/docs/SIGMA-MAPPING.md`.
+- DEV-2 uses a local RSA-2048 test key, detached signatures over canonicalized
+  attestations, and a public-key fingerprint in the trust policy. Unsigned, bad
+  signature, and untrusted-key fixtures are rejected.
+- DFIR binary decision memo plus a verified PCAP/SQLite prototype:
+  `dfir-cases/docs/DFIR-ARTIFACT-DECISION.md`.
+- GRC legal recheck: PP 71/2019 confirmed in force; no Lembaga PDP establishment
+  instrument found in the official search, still flagged:
+  `grc-tabletops/docs/LEGAL-VERIFICATION-2026-11-10.md`.
 
 ## Measured VAPT footprint
 
